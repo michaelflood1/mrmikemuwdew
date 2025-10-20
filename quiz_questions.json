@@ -1,0 +1,556 @@
+[
+  {
+    "question_text": "Why would we want to integrate Enterprise Systems? Select the best answer.",
+    "question_type": "multiple_choice",
+    "options": {
+      "A": "To improve efficiency",
+      "B": "To modernize tooling",
+      "C": "To employ more IT personnel",
+      "D": "To reduce staff"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "question_text": "Which are characteristics of on-premise infrastructure? (Select the option that lists only correct characteristics)",
+    "question_type": "multiple_choice",
+    "options": {
+      "A": "Pay As You Go, Controlled by 3rd Party, Operational Expense",
+      "B": "Controlled By Your Organization, Capital Expense, Pay Upfront",
+      "C": "Controlled by 3rd Party, Operational Expense, Scalable on demand",
+      "D": "Pay As You Go, No maintenance required, Instant deployment"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "question_text": "In which scenario would using Cloud Based Software (SaaS) likely be most advantageous?",
+    "question_type": "multiple_choice",
+    "options": {
+      "A": "Your IT department has specific security requirements",
+      "B": "You are storing sensitive data (trade secrets)",
+      "C": "You are a small company with limited IT resources",
+      "D": "You already have on-premise infrastructure"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "question_text": "Which of the following would be considered Enterprise Systems?",
+    "question_type": "multiple_choice",
+    "options": {
+      "A": "Personal productivity script and individual Excel spreadsheet",
+      "B": "Systems used organization-wide like CRM, HR system, and time tracking",
+      "C": "Only financial and accounting systems",
+      "D": "Only systems that cost over $100,000"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "question_text": "What capability does JIRA provide?",
+    "question_type": "multiple_choice",
+    "options": {
+      "A": "Knowledge Base",
+      "B": "Work Management",
+      "C": "Database",
+      "D": "Source Code Management"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "question_text": "Which statement about production installation methods for Confluence or JIRA is correct?",
+    "question_type": "multiple_choice",
+    "options": {
+      "A": "Only Windows Installer is available",
+      "B": "Only Docker Container can be used",
+      "C": "Multiple methods are available including various OS installers and containers",
+      "D": "Only Archive Files can be used"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "question_text": "What database options are supported for production JIRA or Confluence installations?",
+    "question_type": "multiple_choice",
+    "options": {
+      "A": "Only Embedded H2 database",
+      "B": "Oracle, PostgreSQL, MySQL, and Microsoft SQL Server",
+      "C": "Only PostgreSQL",
+      "D": "Only MySQL"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "question_text": "Select the best definition of a Functional Requirement.",
+    "question_type": "multiple_choice",
+    "options": {
+      "A": "Defines a function in a procedural program",
+      "B": "Defines function points in the software",
+      "C": "Defines how the software source code functions",
+      "D": "Defines a function of a system or its component"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "question_text": "Select the best definition of a Non-Functional Requirement.",
+    "question_type": "multiple_choice",
+    "options": {
+      "A": "Defines the design of the software source code",
+      "B": "Defines constraints on the design or implementation of a system",
+      "C": "Defines all code defined outside of functions",
+      "D": "Defines infrastructure for Functional Requirements"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "question_text": "Functional requirements may involve calculations, technical details, data manipulation and processing, and other specific functionality that define what a system is supposed to accomplish.",
+    "question_type": "true_false",
+    "correct_answer": true
+  },
+  {
+    "question_text": "Which of the following is an example of a Functional Requirement?",
+    "question_type": "multiple_choice",
+    "options": {
+      "A": "System must be restored from backups within 8 hours",
+      "B": "System must fail over to backup within 20 minutes",
+      "C": "System bills the user's credit card after order confirmation",
+      "D": "All personally identifiable data must be encrypted"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "question_text": "For Functional Requirements, a function is described as a specification of behavior between outputs and inputs",
+    "question_type": "true_false",
+    "correct_answer": true
+  },
+  {
+    "question_text": "Non-Functional Requirements are also referred to as 'ilities'.",
+    "question_type": "true_false",
+    "correct_answer": true
+  },
+  {
+    "question_text": "Which of the following would be considered a Non-Functional Requirement?",
+    "question_type": "multiple_choice",
+    "options": {
+      "A": "System sends email notification when order completes",
+      "B": "System allows users to enter and track orders",
+      "C": "System must work on Chrome, Firefox and Safari browsers",
+      "D": "System processes credit card payments"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "question_text": "Non-Functional Requirements are also referred to as System Quality Attributes.",
+    "question_type": "true_false",
+    "correct_answer": true
+  },
+  {
+    "question_text": "Which of the following are ALL categories of Non-Functional Requirements?",
+    "question_type": "multiple_choice",
+    "options": {
+      "A": "Code Quality and Testing only",
+      "B": "Security and Performance only",
+      "C": "Documentation and Comments only",
+      "D": "Security, Scalability, Availability, Usability, Testability, and Maintainability"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "question_text": "Non-Functional Requirements are also referred to as Architecturally Significant Requirements.",
+    "question_type": "true_false",
+    "correct_answer": true
+  },
+  {
+    "question_text": "The definition of a Jenkins pipeline is written in a text file. What is this text file called?",
+    "question_type": "multiple_choice",
+    "options": {
+      "A": "Textfile",
+      "B": "Definitionfile",
+      "C": "Jenkinsfile",
+      "D": "Pipelinefile"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "question_text": "What are advantages of defining a Jenkins pipeline in a file in source control?",
+    "question_type": "multiple_choice",
+    "options": {
+      "A": "Provides single source of truth, enables code review, and creates audit trail",
+      "B": "Eliminates all need for human intervention",
+      "C": "Only provides audit trail",
+      "D": "Makes pipelines run faster"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "question_text": "A Pipeline is a user-defined model of a CI/CD pipeline. A Pipeline's code defines your entire build process, which typically includes stages for building, testing and delivering.",
+    "question_type": "true_false",
+    "correct_answer": true
+  },
+  {
+    "question_text": "In Jenkins declarative pipeline syntax, the pipeline is organized into:",
+    "question_type": "multiple_choice",
+    "options": {
+      "A": "node block containing stages",
+      "B": "pipeline block containing stages",
+      "C": "jenkins block containing steps",
+      "D": "main function with instructions"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "question_text": "A stage block defines a conceptually distinct subset of tasks performed by the Pipeline (e.g. 'Build', 'Test' and 'Deploy' stages)",
+    "question_type": "true_false",
+    "correct_answer": true
+  },
+  {
+    "question_text": "Which statement about the agent section of a declarative pipeline is correct?",
+    "question_type": "multiple_choice",
+    "options": {
+      "A": "It is optional and only validates outputs",
+      "B": "It only specifies docker images",
+      "C": "It is required and specifies where the pipeline will execute",
+      "D": "It is only used for debugging"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "question_text": "A Jenkins pipeline should be triggered by which of the following? Choose the best answer.",
+    "question_type": "multiple_choice",
+    "options": {
+      "A": "Change to the Source Code",
+      "B": "Buildmaster",
+      "C": "Fixed Schedule",
+      "D": "Manually"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "question_text": "It is generally considered best practice to define and maintain the Jenkins pipeline definition directly within a Jenkins build job",
+    "question_type": "true_false",
+    "correct_answer": false
+  },
+  {
+    "question_text": "A Step in a Jenkins pipeline is a single task. Fundamentally, a step tells Jenkins what to do at a particular point in time (e.g., executing sh 'make')",
+    "question_type": "true_false",
+    "correct_answer": true
+  },
+  {
+    "question_text": "Jenkins pipelines support parallel execution and definition of shared libraries for reuse.",
+    "question_type": "true_false",
+    "correct_answer": true
+  },
+  {
+    "question_text": "The Jenkins web server and 'brains' of the system. Select the best answer.",
+    "question_type": "multiple_choice",
+    "options": {
+      "A": "Builtin Node",
+      "B": "Agent",
+      "C": "Executor",
+      "D": "Controller"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "question_text": "What manages the execution of tasks on a node?",
+    "question_type": "multiple_choice",
+    "options": {
+      "A": "Builtin Node",
+      "B": "Executor",
+      "C": "Controller",
+      "D": "Agent"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "question_text": "What runs the stages in a pipeline?",
+    "question_type": "multiple_choice",
+    "options": {
+      "A": "Builtin Node",
+      "B": "Executor",
+      "C": "Agent",
+      "D": "Controller"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "question_text": "An Agent is a Java application that connects to the Controller and is meant to be highly reliable. Because it is Java based it can run on any platform that supports Java.",
+    "question_type": "true_false",
+    "correct_answer": true
+  },
+  {
+    "question_text": "An Agent and a Node are effectively the same thing",
+    "question_type": "true_false",
+    "correct_answer": true
+  },
+  {
+    "question_text": "What are two key reasons for using Jenkins Agent Nodes separate from the Controller?",
+    "question_type": "multiple_choice",
+    "options": {
+      "A": "Cross Browser Support and Simpler Setup",
+      "B": "Scalability and Cross Platform Support",
+      "C": "Security and Interoperability",
+      "D": "Cost savings and faster builds"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "question_text": "The following is a practical definition of DevOps: DevOps is the practice of operations and development engineers participating together in the entire service lifecycle, from design through the development process to production support.",
+    "question_type": "true_false",
+    "correct_answer": true
+  },
+  {
+    "question_text": "Identify the three primary practice areas of DevOps.",
+    "question_type": "multiple_choice",
+    "options": {
+      "A": "On-Call Developers, DevOps Practices, Agile Practices",
+      "B": "Continuous Delivery, Site Reliability Engineering, Infrastructure Automation",
+      "C": "Testing, Building, Deploying",
+      "D": "Planning, Coding, Testing"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "question_text": "Infrastructure Automation refers to creating your systems, OS configs, and app deployments as code. This code is stored in a source code management system.",
+    "question_type": "true_false",
+    "correct_answer": true
+  },
+  {
+    "question_text": "Continuous Delivery means having developers and operations engineers manually build, test, deploy your apps daily.",
+    "question_type": "true_false",
+    "correct_answer": false
+  },
+  {
+    "question_text": "Site Reliability Engineering includes operating your systems; monitoring and orchestration. It also includes designing for operability in the first place.",
+    "question_type": "true_false",
+    "correct_answer": true
+  },
+  {
+    "question_text": "What should go in your project's single source code repository?",
+    "question_type": "multiple_choice",
+    "options": {
+      "A": "Only the source code files",
+      "B": "Code, database schemas, install scripts, and test scripts",
+      "C": "Operating System files",
+      "D": "Compiled binaries from your builds"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "question_text": "A continuous integration server is where (select the best answer):",
+    "question_type": "multiple_choice",
+    "options": {
+      "A": "The build is run automatically every time the code changes",
+      "B": "The build is run manually on a daily basis",
+      "C": "The build is run automatically every 5 minutes",
+      "D": "The build is run automatically on a daily basis"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "question_text": "Frequently committing to the mainline in the source code repository helps developers quickly find out if there's a conflict between two developers (in terms of their code changes).",
+    "question_type": "true_false",
+    "correct_answer": true
+  },
+  {
+    "question_text": "When a build breaks, 'nobody has a higher priority task than fixing the build' (Kent Beck). This means that all developers on the team should immediately focus on fixing the build.",
+    "question_type": "true_false",
+    "correct_answer": false
+  },
+  {
+    "question_text": "Which of the following describes important characteristics of a good Continuous Integration pipeline?",
+    "question_type": "multiple_choice",
+    "options": {
+      "A": "Manual processes and human approval at each step",
+      "B": "Fast builds, automated testing, runs on every checkin, and visibility",
+      "C": "Only automated tests",
+      "D": "Only visibility of results"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "question_text": "A stakeholder is anyone that has an interest (or concern) in the realization of the system or tools you are evaluating and planning to bring into the enterprise.",
+    "question_type": "true_false",
+    "correct_answer": true
+  },
+  {
+    "question_text": "From the following list, who would most likely be considered stakeholders for an Enterprise Development Environment?",
+    "question_type": "multiple_choice",
+    "options": {
+      "A": "Only the Development Team",
+      "B": "Office Receptionist and HR Manager",
+      "C": "PM, IT Operations Team, Test Team, and Development Team",
+      "D": "Only the Project Manager"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "question_text": "A Jenkins pipeline shared library consists of which three items (one of which is optional)?",
+    "question_type": "multiple_choice",
+    "options": {
+      "A": "Version, Name, and Source Code Retrieval Method",
+      "B": "Jenkinsfile, DRY principle, and Name",
+      "C": "Pipeline, Stages, and Steps",
+      "D": "Build, Test, and Deploy"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "question_text": "Shared Libraries in Jenkins pipelines let us share parts of Pipelines between various projects to reduce redundancies and keep code 'DRY'.",
+    "question_type": "true_false",
+    "correct_answer": true
+  },
+  {
+    "question_text": "Shared libraries for Jenkins pipelines can include code written in which language?",
+    "question_type": "multiple_choice",
+    "options": {
+      "A": "Ruby",
+      "B": "Python",
+      "C": "Groovy",
+      "D": "Java"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "question_text": "Given a shared library 'my-shared-library' with evenOrOdd.groovy in the vars folder, how would you import and call the code?",
+    "question_type": "multiple_choice",
+    "options": {
+      "A": "@Library('my-shared-library') evenOrOdd(currentBuild.getNumber())",
+      "B": "@Library('my-shared-library') _ evenOrOdd(currentBuild.getNumber())",
+      "C": "@Library('my-shared-library') _ my-shared-library.evenOrOdd()",
+      "D": "@Library('my-shared-library') _ my-shared-library.call()"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "question_text": "A Shared Library Repository is organized into specific folders: /src for Groovy source files, /vars for script files exposed as variables, and /resources for non-Groovy files.",
+    "question_type": "true_false",
+    "correct_answer": true
+  },
+  {
+    "question_text": "Which tools and resources help with development of Jenkins Pipelines?",
+    "question_type": "multiple_choice",
+    "options": {
+      "A": "Jenkinsfile IDE and Microsoft Word",
+      "B": "Replay Pipeline Runs, IDE Plugins, Blue Ocean Editor, and Command-Line Linter",
+      "C": "Only Blue Ocean Editor",
+      "D": "Only Command-Line tools"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "question_text": "In Lab 5 you created a Jenkinsfile that defined a pipeline for a Python program. What were the stages in that pipeline?",
+    "question_type": "multiple_choice",
+    "options": {
+      "A": "Build, Test, Deploy",
+      "B": "Build, Test, Integration Test",
+      "C": "Requirements, Test, Integration Test",
+      "D": "Requirements, Test, Deploy"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "question_text": "Why would we want to use shared libraries for Jenkins pipelines?",
+    "question_type": "multiple_choice",
+    "options": {
+      "A": "To increase complexity",
+      "B": "To improve code structure",
+      "C": "To enable code reuse",
+      "D": "To improve code quality"
+    },
+    "correct_answer": "C"
+  },
+  {
+    "question_text": "Global Pipeline Libraries, defined in the Jenkins Configuration, are only available to specific pipeline jobs in the Jenkins server.",
+    "question_type": "true_false",
+    "correct_answer": false
+  },
+  {
+    "question_text": "Static code analysis is best described as...",
+    "question_type": "multiple_choice",
+    "options": {
+      "A": "Inspection of code without execution",
+      "B": "Automated inspection of code only",
+      "C": "Visual inspection of code only",
+      "D": "Inspection of code during execution"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "question_text": "What are three key benefits of static code analysis?",
+    "question_type": "multiple_choice",
+    "options": {
+      "A": "Finds runtime errors only",
+      "B": "Ensures compliance with standards, finds dormant errors, and reduces manual review effort",
+      "C": "Only finds compilation errors",
+      "D": "Only generates documentation"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "question_text": "Static and dynamic code analysis, considered together, are sometimes referred to as which of the following?",
+    "question_type": "multiple_choice",
+    "options": {
+      "A": "Black box testing",
+      "B": "White box testing",
+      "C": "Red box testing",
+      "D": "Glass box testing"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "question_text": "A Quality Gate is a set of conditions that tells you whether or not your project is ready for release. You should not set and enforce a quality gate until all code, new and old, will meet the standard.",
+    "question_type": "true_false",
+    "correct_answer": false
+  },
+  {
+    "question_text": "What are the types of issues that SonarQube can track in your code?",
+    "question_type": "multiple_choice",
+    "options": {
+      "A": "Vulnerabilities, Code Smells, and Bugs",
+      "B": "Change Requests, Warnings, and Errors",
+      "C": "Comments and Documentation only",
+      "D": "Performance metrics only"
+    },
+    "correct_answer": "A"
+  },
+  {
+    "question_text": "SonarQube's definition of Technical Debt is: The estimated time required to fix all maintainability issues and code smells identified in the code",
+    "question_type": "true_false",
+    "correct_answer": true
+  },
+  {
+    "question_text": "In SonarQube, a snapshot is a set of measures and issues on a given project at a given time. It is generated for each analysis.",
+    "question_type": "true_false",
+    "correct_answer": true
+  },
+  {
+    "question_text": "In SonarQube, what best describes a scanner?",
+    "question_type": "multiple_choice",
+    "options": {
+      "A": "Stores configuration and snapshots",
+      "B": "An analysis of code quality",
+      "C": "Web interface that is used to browse snapshot data",
+      "D": "A client application that analyzes the source code to compute snapshots"
+    },
+    "correct_answer": "D"
+  },
+  {
+    "question_text": "What are the four main components of the SonarQube platform?",
+    "question_type": "multiple_choice",
+    "options": {
+      "A": "Cluster and REST API only",
+      "B": "Server, Scanners for Code Analysis, Plugins, and Database",
+      "C": "Only Server and Database",
+      "D": "Only Scanners and Plugins"
+    },
+    "correct_answer": "B"
+  },
+  {
+    "question_text": "Where should code analysis first be performed using the SonarQube platform? Choose the best answer.",
+    "question_type": "multiple_choice",
+    "options": {
+      "A": "Source Code Management - i.e. Git",
+      "B": "SonarScanner",
+      "C": "SonarQube Server",
+      "D": "SonarLint in the IDE"
+    },
+    "correct_answer": "D"
+  }
+]
